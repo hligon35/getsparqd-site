@@ -1,0 +1,9 @@
+name: Deploy site
+on: { push: { branches: [ main ] } }
+jobs:
+  call:
+    uses: hligon35/server-deployer/.github/workflows/deploy.yml@main
+    with:
+      path: /srv/data/site
+      compose_file: /srv/core/docker-compose.yml
+      compose_services: front
