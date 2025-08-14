@@ -1,0 +1,21 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Build/cache
+.cache/
+.tmp/
+*.tmp
+
+# Node (if tooling is added later)
+node_modules/
+.npm/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Secrets (none expected here)
+.env
